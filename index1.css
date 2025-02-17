@@ -1,0 +1,69 @@
+body{
+    background-color:skyblue;
+}
+.mainbox{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border: 1px solid red;
+    margin: 150px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 500px;
+}
+.mainbox h2{
+    margin-left: 181px;
+    margin-right: 181px ;
+    font-weight: 750;
+    font-size: 2.5rem;
+    background-color: pink;
+
+}
+.Username{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    align-items: center;
+
+}
+.Username input{
+    background-color: grey;
+    height: 50px;
+    width: 250px;
+    color: white;
+}
+ .password{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    align-items: center;
+ }  
+ .password input{
+    background-color: grey;
+    height: 50px;
+    width: 250px;
+    color: white;
+ }
+ .submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+ }
+ .submit input{
+    height: 50px;
+    width: 100px;
+    background-color:grey;
+    color:white; 
+    font-size: 30px;
+   
+}
+.Signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Signup a{
+    color: blue;
+}
